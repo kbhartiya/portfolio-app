@@ -1,0 +1,29 @@
+.footer-sec {
+    width: inherit;
+    color: grey;
+    bottom: 0;
+    position: static;
+    height: 2.5rem;
+    display: block;
+}
+.footer-sec p {
+    border-top: 3px solid grey;
+}
+
+.flex-container-foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#a-link-foot {
+    padding-left: 20%;
+    color: grey;
+    text-decoration: none;
+}
+
+#a-link-foot:hover {
+    color: #333;
+}

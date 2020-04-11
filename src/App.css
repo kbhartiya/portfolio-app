@@ -1,5 +1,30 @@
+/* @import url("//fonts.googleapis.com/css?family=Titillium%20Web"); */
+@import url("//fonts.googleapis.com/css?family=Ubuntu"); 
+
+:root {
+  --color-bg:#ffffff;
+}
+
+body {
+  min-height: 100vh;
+  /* background-color: #ffffff; */
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFFFF0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Ubuntu';
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Ubuntu';
+}
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  /* background-color: #ffffff; */
+  margin-left: 22vh;
+  margin-right: 22vh;
 }
 
 .App-logo {
@@ -7,21 +32,23 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
+  
+  
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fbf3f3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #111;
 }
 
 .App-link {

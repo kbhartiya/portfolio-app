@@ -1,5 +1,6 @@
 /* @import url("//fonts.googleapis.com/css?family=Titillium%20Web"); */
-@import url("//fonts.googleapis.com/css?family=Ubuntu"); 
+@import url("//fonts.googleapis.com/css?family=Ubuntu");
+ 
 
 :root {
   --color-bg:#ffffff;
@@ -12,6 +13,7 @@ body {
   background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #FFFFF0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Ubuntu';
+  line-height: 1.6;
 }
 
 .dark-mode {
@@ -63,3 +65,15 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media screen
+and (min-width: 240px)
+and (max-width: 500px){
+  .App {
+    min-height: 100vh;
+    /* background-color: #ffffff; */
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+}  

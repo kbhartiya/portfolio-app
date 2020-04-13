@@ -1,11 +1,15 @@
 /* @import url("//db.onlinewebfonts.com/c/55eb7428cd480db11be8b65ed0575762?family=AnnaClaraW00-Regular"); */
-@import url("http://www.cnap.graphismeenfrance.fr/faune/styles/faune-fontes.css");
-
+@import url("//fonts.googleapis.com/css?family=Shadows%20Into%20Light");
 
 .header-bar {
     align-items: baseline;
     display: flex;
     flex-direction: row;
+}
+.header-bar1 {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-link {
@@ -15,18 +19,21 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    
+    text-align: center;
+    padding-right: 2vw;
 }
 
 .nav-head {
     margin-right: 10%;
     /* font-family: "AnnaClaraW00-Regular"; */
-    font-family: 'Faune';
+    font-family: 'Shadows Into Light';
+    font-size: 5vh;
     font-weight: 900;
     background-image: url("./assets/dust-and-scratches.jpg");
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    text-align: center;
 }
 
 #a-link {
@@ -36,18 +43,65 @@
     text-decoration-skip-ink: auto;
     transition: 0.1s ease-in-out;
 }
-#a-link:hover {
-    color: #707070;
-    
+
+#a-link:hover::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 2px;
+  color: #707070;
+  margin-top: -2vh;
+  background-color: #111;
+  animation: hover-link 0.2s  linear;
 }
-#a-link:active {
-    border-bottom: 2px solid #333;
+#a-link:focus::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 2px;
+  color: #707070;
+  margin-top: -2vh;
+  background-color: #111;
+  animation: hover-link 0.2s  linear;
+}
+
+#h-link {
+  text-decoration: none;
+  text-align: center;
+  color: #111;
+  text-decoration-skip-ink: auto;
+  transition: 0.1s ease-in-out;
+}
+
+#h-link:hover::after {
+content: "";
+color: grey;
+display: block;
+margin: auto;
+width: 100%;
+height: 2px;
+background-color: #111;
+animation: hover-link 0.2s  linear;
+}
+
+@keyframes hover-link {
+  0% {
+    width: 0%;
+    height: 2px;
+  }
+  100% {
+    width: 100%;
+    height: 2px;
+  }
 }
 
 /*For Toggle Button -- Dark Mode*/
 .switch {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     width: 5%;
     width: 60px;
     height: 34px;
@@ -80,7 +134,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background: linear-gradient(to right, white, white, grey);
+    background: white;
     border: 1px solid #333;
     -webkit-transition: .4s;
     transition: .6s;
@@ -112,3 +166,37 @@
   }
 
   
+@media screen
+and (min-width: 240px)
+and (max-width: 720px){
+  .switch {
+    display: none;
+    margin-left: 0;
+  }
+  .header-bar {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-right: 0;
+    /* width: 100%; */
+    font-size: 3vh;
+    padding-left: 3vw;
+    /* padding-left: 50%; 
+    
+    justify-content: center;*/
+  }
+  .nav-head {
+    margin-right: 0;
+    width: 100%;
+  }
+  #h-link:hover::after {
+    content: "";
+    color: grey;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 0px;
+    background-color: #111;
+    animation: hover-link 0.2s  linear;
+    }
+}  

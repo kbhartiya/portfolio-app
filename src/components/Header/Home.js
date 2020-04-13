@@ -13,7 +13,11 @@ class Home extends Component {
                         <h2>website of <a href="/#/about" id="home-link-intro">Kartik Bhartiya</a></h2>
                         <br />
 
-                        <h3 className="desc"></h3>
+                        <h3 className="desc">
+                            Another Data Science and Big Data enthusiast.<br />
+                            Always trying to learn something new .<br />
+                            Browse this website to know more about Kartik.
+                        </h3>
 
                     </div>  
                     <div className="img-div">

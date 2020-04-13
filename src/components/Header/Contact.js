@@ -28,7 +28,7 @@ class Contact extends Component {
                     <label for="find"><h3>How’d you hear about my website?</h3></label>
                     <input type="text" id="find" name="hear-about" placeholder="e.g. Searching the web"/>
 
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Send" />
                 </form>  
             </div> 
         </div>   

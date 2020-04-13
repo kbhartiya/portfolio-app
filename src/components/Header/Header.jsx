@@ -19,11 +19,13 @@ const Header = () => (
 <HashRouter>
     <div className="header">
         <div className="header-bar">
-            <h2 className="nav-head"><NavLink to="/" id="a-link">Kartik Bhartiya</NavLink></h2>
-            <h3 className="nav-link"><NavLink to="/about" id="a-link">About</NavLink></h3>
-            <h3 className="nav-link"><NavLink to="/projects" id="a-link">Projects</NavLink></h3>
-            <h3 className="nav-link"><NavLink to="/blogs" id="a-link">Blogs</NavLink></h3>
-            <h3 className="nav-link"><NavLink to="/contactme" id="a-link">Contact</NavLink></h3>
+            <h2 className="nav-head"><NavLink to="/" id="h-link">Kartik Bhartiya</NavLink></h2>
+            <div className="header-bar1">
+                <h3 className="nav-link"><NavLink to="/about" id="a-link">About</NavLink></h3>
+                <h3 className="nav-link"><NavLink to="/projects" id="a-link">Projects</NavLink></h3>
+                <h3 className="nav-link"><NavLink to="/blogs" id="a-link">Blogs</NavLink></h3>
+                <h3 className="nav-link"><NavLink to="/contactme" id="a-link">Contact</NavLink></h3>
+            </div>
             <label className="switch" onClick="changeTheme()" >
                 <input type="checkbox" />
                 <span className="slider round"></span>

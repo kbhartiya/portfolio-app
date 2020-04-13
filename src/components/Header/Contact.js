@@ -14,7 +14,7 @@ class Contact extends Component {
             </div>
             <br />
             <div className="container">
-                <form action="/action_page.php">
+                <form action="https://formspree.io/kbhartiya83@gmail.com" method="POST">
                     <label for="fname"><h3>Name</h3></label>
                     <input type="text" id="fname" name="name" />
                     <br />

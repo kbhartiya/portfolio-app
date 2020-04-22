@@ -17,17 +17,20 @@ class Blogs extends Component {
                         path to learn new things.
                     </h2>    
                     <h2>Click on the topic to see topic related articles and blogs.</h2>
+                    <h5>*Currently not updated*</h5>
                 </div>    
                 <div className="content-sec">
                     <h2>#Contents</h2>
                     <p></p>
                     <div className="flex-container-contents">
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Machine Learning & DS</a><h5 style={{margin:0}}>2</h5></h3>
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Reinforcement Learning</a><h5 style={{margin:0}}>2</h5></h3>
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Deep Learning</a><h5 style={{margin:0}}>2</h5></h3>
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Web</a><h5 style={{margin:0}}>2</h5></h3>
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Research</a><h5 style={{margin:0}}>2</h5></h3>
-                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#News</a><h5 style={{margin:0}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Machine Learning & DS</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Reinforcement Learning</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Deep Learning</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Web</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Research</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#News</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Programming</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
+                        <h3 style={{display:'flex',flexDirection:'row',alignItems:'stretch',justifyContent:'space-between'}}><a href="#">#Big Data</a><h5 style={{margin:0,border:'1px solid #111',borderRadius:'2px',paddingLeft:'2px',paddingRight:'2px',backgroundColor:'#e0e0d1'}}>2</h5></h3>
                     </div>
                     <h2>#Featured</h2>
                     <p></p>

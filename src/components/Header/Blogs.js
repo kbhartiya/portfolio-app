@@ -34,7 +34,7 @@ class Blogs extends Component {
                     </div>
                     <h2>#Featured</h2>
                     <p></p>
-                    <div>
+                    <div className="scroll-horizontal">
                         <div className="blog-box">
                             <a href="https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/">
                                 <img src="https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/img/simple2_1.png"  alt="article0" />
@@ -45,6 +45,22 @@ class Blogs extends Component {
                         </div>       
                         
                         <br />
+                        <div className="blog-box">
+                            <a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">
+                                <img src="https://lh3.googleusercontent.com/zaS3shqAQkJGQmpBFFzy3ONM8z4JFkbV_0aZwiIgPqrf03YigClyxzo3qza-IZ8hZqLk8N3_wVPQzbuVU35wXAtm3988QZIRD9v1=w1440-rw-v1"  alt="article1" />
+                                <br />
+                                <h3>AlphaStar | DeepMind</h3>
+                                <h4>- By The AlphaStar team</h4>
+                            </a>
+                        </div>
+                        <div className="blog-box">
+                            <a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">
+                                <img src="https://lh3.googleusercontent.com/zaS3shqAQkJGQmpBFFzy3ONM8z4JFkbV_0aZwiIgPqrf03YigClyxzo3qza-IZ8hZqLk8N3_wVPQzbuVU35wXAtm3988QZIRD9v1=w1440-rw-v1"  alt="article1" />
+                                <br />
+                                <h3>AlphaStar | DeepMind</h3>
+                                <h4>- By The AlphaStar team</h4>
+                            </a>
+                        </div>
                         <div className="blog-box">
                             <a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">
                                 <img src="https://lh3.googleusercontent.com/zaS3shqAQkJGQmpBFFzy3ONM8z4JFkbV_0aZwiIgPqrf03YigClyxzo3qza-IZ8hZqLk8N3_wVPQzbuVU35wXAtm3988QZIRD9v1=w1440-rw-v1"  alt="article1" />

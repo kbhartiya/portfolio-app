@@ -119,9 +119,35 @@
     padding-bottom: 2.5rem;
 }
 
+.scroll-horizontal {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #A9A9A9; */
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 30px 0;
+}
+
+.blog-box {
+    border: 1px solid #333;
+    display: block;
+    padding: 50px 30px;
+    margin: 0 20px;
+    box-shadow: 2px 2px 8px #111;
+}
+.scroll-horizontal::-webkit-scrollbar {
+    display: none;
+}
+
+.blog-box img {
+    width: 25vw;
+}
 .blog-box h3 {
     margin: 0;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 input[type=text],input[type=email] {
@@ -313,5 +339,8 @@ and (max-width: 720px){
         width: 95%;
         padding-left: 2vw;
         padding-right:2vw;
+    }
+    .blog-box img {
+        width: 80vw;
     }
 }    

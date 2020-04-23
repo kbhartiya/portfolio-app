@@ -1,7 +1,10 @@
+@import url("//fonts.googleapis.com/css?family=Suez%20One");
+
 #home-h1 {
     padding-top: 10px;
     overflow: visible;
     font-size: 10vh;
+    font-family: 'Suez One';
     text-align: center;
     margin: 0 0 0 0;
     font-weight: 900;
@@ -131,7 +134,7 @@
 }
 
 .blog-box {
-    border: 1px solid #333;
+    border: 1px solid grey;
     display: block;
     padding: 50px 30px;
     margin: 0 20px;
@@ -149,6 +152,35 @@
     text-decoration: underline;
     font-size: 20px;
 }
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+
+.about-container p {
+    border-bottom: 2px solid #111;
+}
+
+.about-container h1{
+    background-image: url("./assets/dust-and-scratches.jpg");
+    display: inline-block;
+    color: white;
+    margin-bottom: -5vh;
+}
+
+.about-contact{
+    width: 20vw;
+    margin:
+}
+
+.about-exp{
+    width: 60vw;
+    margin-left: 3vw;
+}
+
 
 input[type=text],input[type=email] {
     width: 100%;
@@ -202,8 +234,8 @@ input[type=text],input[type=email] {
   }
   
   input[type=submit]:hover {
-    background-color: #333;
-    
+    /* background-color: #333; */
+    background-image: url("./assets/dust-and-scratches.jpg");
   }
 
   .flex-container-contents {
@@ -282,6 +314,42 @@ input[type=text],input[type=email] {
     100% {content: '';}
 }
 */
+
+/* list styles */
+/* https://codepen.io/yying6/pen/qzlop */
+ol {
+    list-style: none;
+    color: #ccc;
+  }
+  
+  ol li {
+    font: bold 24pt 'Ubuntu';
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  li h4 {
+    
+    color: #555;
+    padding-left: 60px;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid grey;
+    margin: 4vh;
+  }
+  li h6 {
+    margin: 2vh;
+    padding: 0;
+    font-size: 3vh;
+    color: #555;
+    padding-left: 60px;
+  }
+  
+  span {
+    position: absolute;
+    line-height: 25px;
+  }
+    
+/* list styles */
 
 @media screen
 and (min-width: 240px)

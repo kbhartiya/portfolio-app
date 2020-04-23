@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a840619c61d259dc6969f31e521059bd",
+    "revision": "51184cde6c52de510f889f6114d1edee",
     "url": "/portfolio-app/index.html"
   },
   {
-    "revision": "203eb4e3228a38853cf5",
-    "url": "/portfolio-app/static/css/main.f6e5e1c6.chunk.css"
+    "revision": "10f03bc05d8ccf204db8",
+    "url": "/portfolio-app/static/css/main.9433f6cf.chunk.css"
   },
   {
     "revision": "e011269243dcee557af9",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-app/static/js/2.89928423.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "203eb4e3228a38853cf5",
-    "url": "/portfolio-app/static/js/main.7d8d6ddb.chunk.js"
+    "revision": "10f03bc05d8ccf204db8",
+    "url": "/portfolio-app/static/js/main.8a2da0fa.chunk.js"
   },
   {
     "revision": "10efd180a662f5826e5c",
     "url": "/portfolio-app/static/js/runtime-main.7049b92a.js"
   },
   {
-    "revision": "0a4eb1aec2f77f051c803c41ac3a7879",
-    "url": "/portfolio-app/static/media/dust-and-scratches.0a4eb1ae.jpg"
+    "revision": "e0431c6d82a4078496d702660baa1660",
+    "url": "/portfolio-app/static/media/dust-and-scratches.e0431c6d.jpg"
   },
   {
     "revision": "41dfaa73306492a8d784a8cb0eaed95a",

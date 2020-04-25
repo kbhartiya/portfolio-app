@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 
 class About extends Component {
+
     render() {
         return (
             <div>
@@ -51,7 +52,10 @@ class About extends Component {
                             </ol>
                         </div>
                     </div>    
-
+                    <div className="about-container">
+                        <h1>#Skills</h1>
+                            
+                    </div>    
                 </div>     
             </div>   
         );

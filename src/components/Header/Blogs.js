@@ -36,38 +36,46 @@ class Blogs extends Component {
                     <p></p>
                     <div className="scroll-horizontal">
                         <div className="blog-box">
+                        
+                            <img src="https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/img/simple2_1.png"  alt="article0" />
+
                             <a href="https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/">
-                                <img src="https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/img/simple2_1.png"  alt="article0" />
-                                <br />
                                 <h3>Neural Networks, Manifolds, and Topology</h3>
                                 <h4>- By Chris Olah</h4>
                             </a>
+        
                         </div>       
                         
                         <br />
                         <div className="blog-box">
+                        
+                            <img src="https://lh3.googleusercontent.com/zaS3shqAQkJGQmpBFFzy3ONM8z4JFkbV_0aZwiIgPqrf03YigClyxzo3qza-IZ8hZqLk8N3_wVPQzbuVU35wXAtm3988QZIRD9v1=w1440-rw-v1"  alt="article1" />
+                            
                             <a href="https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii">
-                                <img src="https://lh3.googleusercontent.com/zaS3shqAQkJGQmpBFFzy3ONM8z4JFkbV_0aZwiIgPqrf03YigClyxzo3qza-IZ8hZqLk8N3_wVPQzbuVU35wXAtm3988QZIRD9v1=w1440-rw-v1"  alt="article1" />
-                                <br />
                                 <h3>AlphaStar | DeepMind</h3>
                                 <h4>- By The AlphaStar team</h4>
                             </a>
+                            
+                            
                         </div>
                         <div className="blog-box">
+                        
+                            <img src="https://miro.medium.com/max/1000/0*5cC2ijcO2fQq10bX.png"  alt="article1" />
                             <a href="https://medium.com/@durgaswaroop/a-practical-introduction-to-kafka-storage-internals-d5b544f6925f">
-                                <img src="https://miro.medium.com/max/1000/0*5cC2ijcO2fQq10bX.png"  alt="article1" />
-                                <br />
                                 <h3>A Practical Introduction to Kafka Storage Internals</h3>
                                 <h4>- By Durga Swaroop Perla</h4>
                             </a>
+                            
                         </div>
                         <div className="blog-box">
+                            
+                            <img src="https://www.topcoder.com/i/education/dynProg_1.gif"  alt="article1" />
                             <a href="https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/">
-                                <img src="https://www.topcoder.com/i/education/dynProg_1.gif"  alt="article1" />
-                                <br />
                                 <h3>TopCoder DP Tutorial blog</h3>
                                 <h4>- By Dumitru</h4>
                             </a>
+                                
+                            
                         </div>
                     </div>    
 

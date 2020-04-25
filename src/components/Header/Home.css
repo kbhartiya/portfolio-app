@@ -135,9 +135,11 @@
 
 .blog-box {
     border: 1px solid grey;
-    display: block;
     padding: 50px 30px;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 2px 2px 8px #111;
 }
 .scroll-horizontal::-webkit-scrollbar {
@@ -168,6 +170,8 @@
     background-image: url("./assets/dust-and-scratches.jpg");
     display: inline-block;
     color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
     margin-bottom: -5vh;
 }
 

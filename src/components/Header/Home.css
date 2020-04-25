@@ -332,9 +332,8 @@ ol {
   }
   
   li h4 {
-    
+    font-weight: bolder;
     color: #555;
-    padding-left: 60px;
     padding-bottom: 2vh;
     border-bottom: 1px solid grey;
     margin: 4vh;
@@ -344,7 +343,7 @@ ol {
     padding: 0;
     font-size: 3vh;
     color: #555;
-    padding-left: 60px;
+    padding-left: 10px;
   }
   
   span {
@@ -411,7 +410,57 @@ and (max-width: 720px){
         padding-left: 2vw;
         padding-right:2vw;
     }
+    .about-container{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    
+    }
+    .about-contact{
+        font-size: 2vh;
+        width: 100vw;
+        padding-left: 1vw;
+    }
+    .about-exp{
+        margin: 0;
+        font-size: 2vh;
+        width: 100vw;
+        padding-left: 1vw;
+    }
+    .about-exp span {
+        display: none;
+    }
+    .about-exp h4 {
+
+        float: left;
+    }
+    .about-skills {
+        font-size: 2vh;
+        padding-left: 1vw;
+    }
+    ol {
+        font-size: 1vh;
+        padding-left: 0;
+    }
+    ol li {
+        display: flex;
+        flex-direction: column;
+        font: bold 12pt 'Ubuntu';
+    }
+    .blog-box {
+        font-size: 2vh;
+        padding: 0;
+    }
+    .blog-box h3{
+        font-size: 3vh;
+    }
     .blog-box img {
+        height: 50vh;
         width: 80vw;
+    }
+    .blog-box a {
+        padding: 1vw;
+    }
+    .blog-box h4 {
+        margin: 0;
     }
 }    

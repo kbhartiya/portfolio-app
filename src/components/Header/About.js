@@ -1,8 +1,11 @@
 import React, {Component} from "react";
+import Chart from "chart.js";
+
 
 class About extends Component {
-
+    
     render() {
+        
         return (
             <div>
                 <div>
@@ -31,19 +34,19 @@ class About extends Component {
                             <h1>#Experience</h1>
                             <p></p>
                             <ol>
-                                <li><span>01</span>
+                                <li>
                                     <h4>Hyperworks Imaging Pvt. Ltd.</h4>
                                     <h6>May '19 - July '19</h6>
                                     <h6>Machine Learning Intern</h6>
 
     
                                 </li>
-                                <li><span>02</span>
+                                <li>
                                     <h4>Cogknit Semantics Pvt. Ltd.</h4>
                                     <h6>May '18 - July '18</h6>
                                     <h6>Machine Learning Intern</h6>
                                 </li>
-                                <li><span>03</span>
+                                <li>
                                     <h4>L&T</h4>
                                     <h6>Dec '17 - Jan '18</h6>
                                     <h6>Intern</h6>
@@ -53,8 +56,11 @@ class About extends Component {
                         </div>
                     </div>    
                     <div className="about-container">
-                        <h1>#Skills</h1>
-                            
+                        
+                         <div class="about-skills">
+                            <h1>#Skills</h1> 
+                            <p></p>   
+                         </div>       
                     </div>    
                 </div>     
             </div>   

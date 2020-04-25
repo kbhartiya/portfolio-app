@@ -74,6 +74,7 @@ and (max-width: 500px){
     /* background-color: #ffffff; */
     margin-left: 0;
     margin-right: 0;
-    width: 100vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }  

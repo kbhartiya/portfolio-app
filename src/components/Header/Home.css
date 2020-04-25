@@ -287,7 +287,7 @@ input[type=text],input[type=email] {
 }
 
 .flex-container-col:hover{
-    box-shadow: 3px 3px 20px #111;
+    box-shadow: 1px 1px 7px #111;
 }
 
 
@@ -341,7 +341,6 @@ ol {
   li h6 {
     margin: 2vh;
     padding: 0;
-    font-size: 3vh;
     color: #555;
     padding-left: 10px;
   }
@@ -412,27 +411,28 @@ and (max-width: 720px){
     }
     .about-container{
         flex-direction: column;
+        text-align: center;
         /* flex-wrap: wrap; */
     
     }
     .about-contact{
-        font-size: 2vh;
-        width: 100vw;
+        font-size: 3vh;
+        width: 95vw;
         padding-left: 1vw;
     }
     .about-exp{
         margin: 0;
-        font-size: 2vh;
-        width: 100vw;
+        font-size: 3vh;
+        width: 95vw;
         padding-left: 1vw;
     }
     .about-exp span {
         display: none;
     }
     .about-exp h4 {
-
         float: left;
     }
+
     .about-skills {
         font-size: 2vh;
         padding-left: 1vw;
@@ -462,5 +462,6 @@ and (max-width: 720px){
     }
     .blog-box h4 {
         margin: 0;
+        font-size: 1vh;
     }
 }    

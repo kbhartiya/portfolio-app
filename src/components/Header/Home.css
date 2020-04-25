@@ -326,7 +326,7 @@ ol {
   }
   
   ol li {
-    font: bold 24pt 'Ubuntu';
+    font: bold 4vh 'Ubuntu';
     position: relative;
     margin-bottom: 20px;
   }
@@ -347,7 +347,7 @@ ol {
   
   span {
     position: absolute;
-    line-height: 25px;
+    line-height: 1.5;
   }
     
 /* list styles */
@@ -444,7 +444,6 @@ and (max-width: 720px){
     ol li {
         display: flex;
         flex-direction: column;
-        font: bold 12pt 'Ubuntu';
     }
     .blog-box {
         font-size: 2vh;

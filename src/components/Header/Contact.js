@@ -16,17 +16,17 @@ class Contact extends Component {
             <div className="container">
                 <form action="https://formspree.io/kbhartiya83@gmail.com" method="POST">
                     <label for="fname"><h3>Name</h3></label>
-                    <input type="text" id="fname" name="name" />
+                    <input type="text" id="fname" name="name" required/>
                     <br />
                     <label for="email"><h3>Email Address ( Will remain private )</h3></label>
                     <br />
-                    <input type="email" id="mail" name="email" />
+                    <input type="email" id="mail" name="email" required/>
                     <br />
                     <label for="subject"><h3>Subject</h3></label>
-                    <textarea id="subject" name="subject"  style={{height:'200px'}}></textarea>
+                    <textarea id="subject" name="subject"  style={{height:'200px'}} required></textarea>
 
                     <label for="find"><h3>How’d you hear about my website?</h3></label>
-                    <input type="text" id="find" name="hear-about" placeholder="e.g. Searching the web"/>
+                    <input type="text" id="find" name="hear-about" placeholder="e.g. Searching the web" required/>
 
                     <input type="submit" value="Send" />
                 </form>  
